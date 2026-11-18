@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>StreamKit.Bench</RootNamespace>
+    <AssemblyName>StreamKit.Bench</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\StreamKit.Core\StreamKit.Core.csproj" />
+    <ProjectReference Include="..\..\src\StreamKit.Data\StreamKit.Data.csproj" />
+    <ProjectReference Include="..\..\src\StreamKit.Web\StreamKit.Web.csproj" />
+  </ItemGroup>
+</Project>

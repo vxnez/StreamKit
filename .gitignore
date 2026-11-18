@@ -1,0 +1,21 @@
+# Build
+bin/
+obj/
+artifacts/
+publish/
+
+# IDE
+.vs/
+.idea/
+*.user
+*.suo
+
+# Tests
+TestResults/
+*.trx
+
+# Datos locales (la app usa %LOCALAPPDATA%, esto es por si se ejecuta desde el repo)
+*.db
+*.db-shm
+*.db-wal
+*.log

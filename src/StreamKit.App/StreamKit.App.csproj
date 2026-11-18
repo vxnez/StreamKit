@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>StreamKit.App</RootNamespace>
+    <AssemblyName>StreamKit</AssemblyName>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Security.Cryptography.ProtectedData" Version="8.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StreamKit.Core\StreamKit.Core.csproj" />
+    <ProjectReference Include="..\StreamKit.Data\StreamKit.Data.csproj" />
+    <ProjectReference Include="..\StreamKit.Web\StreamKit.Web.csproj" />
+    <ProjectReference Include="..\StreamKit.TikTok\StreamKit.TikTok.csproj" />
+    <ProjectReference Include="..\StreamKit.Obs\StreamKit.Obs.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>StreamKit.Core</RootNamespace>
+    <AssemblyName>StreamKit.Core</AssemblyName>
+  </PropertyGroup>
+</Project>
